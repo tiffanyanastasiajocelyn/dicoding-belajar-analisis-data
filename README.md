@@ -2,10 +2,8 @@
 
 ## SETUP ENVIRONMENT - TERMINAL
 
-cd <path>
 pip install -r requirements.txt
 
-## RUN STREAMLIT APP
+## RUN STREAMLIT APP - TERMINAL
 
-pip install streamlit
 streamlit run dashboard.py
