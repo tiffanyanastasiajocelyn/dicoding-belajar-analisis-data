@@ -3,8 +3,8 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Set the path for the dataset (gunakan jalur absolut)
-DATA_PATH = "C:\\Users\\User\\Downloads\\gabungan.csv"
+# Set the path for the dataset
+DATA_PATH = "gabungan.csv"  # Gunakan jalur relatif
 
 # Load the dataset
 data = pd.read_csv(DATA_PATH)
